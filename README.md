@@ -8,7 +8,10 @@ Design and implementation of a 50W dual-switch flyback power converter. Calculat
 Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
 
 ## Table of contents.
-* ()[]
+* [Converter parameters](#converter-parameters)
+* [General information](#general-information)
+* [Results](#results)
+* [Technologies used](#technologies-used)
 
 ## Converter parameters.
 - Nominal power: 50W
