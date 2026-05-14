@@ -33,3 +33,13 @@ Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
     - saturation current,
     - winding resistance.
 - Tested the device for efficiency under a range of valid input voltages.
+
+<p align="center">
+<img src="./Images/Circuit_From_STMicroelectronics.avif" alt="./Images/Circuit_From_STMicroelectronics.avif" width="700"><br>
+<em>Figure 1: Idea schematic. Source: STMicroelectronics.</em>
+</p>
+
+<p align="center">
+<img src="./Images/View_3D.png" alt="./Images/View_3D.png" width="700"><br>
+<em>Figure 1: Idea schematic. Source: STMicroelectronics.</em>
+</p>
