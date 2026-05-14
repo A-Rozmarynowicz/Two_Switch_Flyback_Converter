@@ -10,13 +10,14 @@ Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
 ## Table of contents.
 * ()[]
 
+## Converter parameters.
+- Nominal power: 50W
+- Output voltage: 5V
+- Input voltage: between 30V and 60V, with 50V nominal
+- Switching frequency: 320kHz
+- Max output voltage ripple: 2%
+
 ## General information.
-- Converter parameters:
-    - Nominal power: 50W
-    - Output voltage: 5V
-    - Input voltage: between 30V and 60V, with 50V nominal
-    - Switching frequency: 320kHz
-    - Max output voltage ripple: 2%
 - Calculated device's parameters, such as:
     - duty cycle,
     - coupled inductor's winding ratio, dimensions
@@ -35,11 +36,24 @@ Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
 - Tested the device for efficiency under a range of valid input voltages.
 
 <p align="center">
-<img src="./Images/Circuit_From_STMicroelectronics.avif" alt="./Images/Circuit_From_STMicroelectronics.avif" width="700"><br>
+<img src="./Images/Circuit_From_STMicroelectronics.avif" alt="./Images/Circuit_From_STMicroelectronics.avif" width="650"><br>
 <em>Figure 1: Idea schematic. Source: STMicroelectronics.</em>
 </p>
 
 <p align="center">
-<img src="./Images/View_3D.png" alt="./Images/View_3D.png" width="700"><br>
-<em>Figure 1: Idea schematic. Source: STMicroelectronics.</em>
+<img src="./Images/View_3D.png" alt="./Images/View_3D.png" width="550"><br>
+<em>Figure 2: 3D view of the PCB.</em>
 </p>
+
+## Results.
+The converter has reached an around 80% efficiency for a range of input voltages from 30V to 60V.
+
+## Technologies used.
+- Software:
+    - Altium Designer
+    - PLECS
+    - MATLAB
+- Measurement tools:
+    - BODE100 analyser
+    - Power choke meter
+    - IR heat camera
