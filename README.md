@@ -19,7 +19,17 @@ Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
     - Max output voltage ripple: 2%
 - Calculated device's parameters, such as:
     - duty cycle,
-    - transformer's winding ratio,
-    - capacitor and resistor values
-    - MOSFETs and diodes parameters
-    - heatsink size
+    - coupled inductor's winding ratio, dimensions
+    - capacitor and resistor values,
+    - MOSFETs and diodes parameters,
+    - heatsink size.
+- Simulated the circuit in PLECS. Analyzed:
+    - compensation network's functioning,
+    - impact of input voltage characteristics on output voltage.
+- Simulated system's stability and efficiency in MATLAB.
+- Manually wound the coupled inductor.
+- Measured the coupled inductor's characteristics, namely:
+    - magnetizing and leakage inductance,
+    - saturation current,
+    - winding resistance.
+- Tested the device for efficiency under a range of valid input voltages.
