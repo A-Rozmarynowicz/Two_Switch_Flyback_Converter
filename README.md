@@ -30,7 +30,7 @@ Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
 - Simulated the circuit in PLECS. Analyzed:
     - compensation network's functioning,
     - impact of input voltage characteristics on output voltage.
-- Simulated system's stability and efficiency in MATLAB.
+- Simulated the system's stability and efficiency in MATLAB.
 - Manually wound the coupled inductor.
 - Measured the coupled inductor's characteristics, namely:
     - magnetizing and leakage inductance,
