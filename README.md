@@ -5,7 +5,9 @@
 # Two Switch Flyback Converter
 Design and implementation of a 50W dual-switch flyback power converter. Calculated components' values, performed efficiency and stability analysis in MATLAB, and simulated the process in PLECS.
 
-Authors: Arkadiusz Rozmarynowicz, Timothée Roth.
+Authors: Timothée Roth, Arkadiusz Rozmarynowicz.
+
+Development time: from 03.2025 to 06.2025.
 
 ## Table of contents.
 * [Converter parameters](#converter-parameters)
